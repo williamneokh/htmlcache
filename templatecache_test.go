@@ -27,9 +27,9 @@ func Test_cache_CreateTemplateCache(t *testing.T) {
 			name: "Test 2",
 			fields: fields{
 				PagePath:   "",
-				LayoutPath: "./templates/*.layout.gohtml",
+				LayoutPath: "",
 			},
-			want:    true,
+			want:    false,
 			wantErr: true,
 		},
 	}
